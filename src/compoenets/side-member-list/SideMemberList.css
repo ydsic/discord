@@ -1,0 +1,68 @@
+.headerTitle {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-between;
+  width: 89%;
+  height: 5vh;
+  left: 10.65vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: var(--message-bg-color);
+}
+
+.hederTitleName {
+  display: flex;
+  margin: 0 30px;
+  color: var(--normal-txt-color);
+  font-size: 16px;
+  font-weight: 800;
+  gap: 10px;
+}
+
+.headerTitleIconInput {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 20px;
+  right: 15px;
+}
+
+.headerInputDiv {
+  display: flex;
+  background-color: var(--channelList-bg-color);
+  border-radius: 5px;
+}
+.headerInputDiv > input {
+  width: 10vw;
+  background-color: var(--channelList-bg-color);
+  border: none;
+  outline: none;
+  margin: 5px;
+}
+
+.headerInputDiv > svg {
+  margin: 5px;
+}
+
+.sidememberDiv > div {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-left: 15px;
+  top: 7vh;
+  color: var(--normal-txt-color);
+}
+
+.sidememberDiv > div > p {
+  font-size: 15px;
+}
+
+.profileList {
+  display: flex;
+  margin: 15px 0 10px 10px;
+}
+
+.profileList > p {
+  margin-top: 3px;
+  margin-left: 10px;
+}

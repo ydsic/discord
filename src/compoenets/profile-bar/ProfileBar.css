@@ -1,0 +1,49 @@
+.ProfileDiv {
+  position: absolute;
+  left: 5px;
+  bottom: 1vh;
+  width: 14vw;
+  height: 6vh;
+  background-color: var(--profilebar-bg-color);
+  border-radius: 10px;
+}
+
+.bottomDiv {
+  width: 100%;
+  height: 100%;
+}
+
+.profileBar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.profileIcon {
+  margin-bottom: 10px;
+}
+
+.namestate {
+  font-size: 12px;
+  /* margin: 10px 10px 5px 5px; */
+}
+
+.profileName {
+  width: 5vw;
+  color: var(--active-txt-color);
+}
+
+.profileState {
+  color: var(--normal-txt-color);
+}
+
+.iconList {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  color: #e0e0e0;
+  font-size: 18px;
+  gap: 20px;
+}

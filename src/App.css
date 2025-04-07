@@ -1,0 +1,23 @@
+/* Discord Color */
+:root {
+  --main-bg-color: #23272a;
+  --channelList-bg-color: #23272a;
+  --memberList-bg-color: #2c2f33;
+  --message-bg-color: #2c2f33;
+  --message-inputbox-bg-color: #36393f;
+  --profilebar-bg-color: #36393f;
+  --hover-bg-color: #424549;
+  --active-bg-color: #7289da;
+  --normal-txt-color: #99aab5;
+  --hover-txt-color: #ffffff;
+  --active-txt-color: #ffffff;
+  --border-color: #99aab5;
+}
+
+@font-face {
+  font-family: "gg sans Normal Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("gg sans Normal Regular"),
+    url("./assets/fonts/gg-sans-Regular.woff") format("woff");
+}
